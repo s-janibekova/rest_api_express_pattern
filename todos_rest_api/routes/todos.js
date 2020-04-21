@@ -13,7 +13,7 @@ router.route('/')
 
 router.route('/:todoId')
      .get(helpers.getTodo)
-     .post(helpers.updateTodo)
+     .put(helpers.updateTodo)
      .delete(helpers.deleteTodo)
 
 
